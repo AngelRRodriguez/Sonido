@@ -1,0 +1,107 @@
+.navbar {
+    width: 100%;
+    border: 5px solid #fbd42c;
+    background-color: transparent !important;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Josefin Sans;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    -webkit-animation:colorchange 1.5s infinite alternate;
+    font-size: 26px;
+    padding: 0;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+        color: black;
+      }
+      40% {
+          color: black;
+      }
+      60% {
+          color: white;
+      }
+      100% {
+        color: white;
+      }
+    }
+
+.card {
+    background-color: transparent;
+    border: 3px solid white;
+    transition: all 0.1s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.5);
+}
+
+.card-cuerpo {
+    background-color: white;
+}
+
+.logo {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.fila-animales {
+    padding: 20px 0;
+}
+
+.fila-animales .col {
+    padding: 0 78px;
+}
+
+.tema-selva {
+    background-image: url(../img/backgrounds/selva.jpg);
+    background-size: cover;
+}
+
+.tema-acuatico {
+    background-image: url(../img/backgrounds/acuatico.jpg);
+    background-size: cover;
+}
+
+.tema-domestico {
+    background-image: url(../img/backgrounds/domestico.jpg);
+    background-size: cover;
+}
+
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav .nav-link  {
+    text-align: center;
+    cursor: -webkit-grab;
+    font-family:Josefin Sans;
+    font-size: 26px;
+    padding: 0;
+}
+
+.btn {
+    cursor: -webkit-grab;
+}
+
+#start-modal {
+    overflow: hidden;
+}
+
+#start-modal .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#start-modal .modal-body {
+    padding: 0;
+}
